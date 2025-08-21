@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #2563eb;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro h2 {
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+}
+
+.actions h2 {
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+    background: #2563eb;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #1e40af;
+}
+
+.btn.secondary {
+    background: #10b981;
+}
+
+.btn.secondary:hover {
+    background: #047857;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    background: #f1f5f9;
+    border-top: 1px solid #e5e7eb;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #2563eb;
+    text-decoration: none;
+}

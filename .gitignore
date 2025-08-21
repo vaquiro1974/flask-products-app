@@ -1,0 +1,9 @@
+echo "__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.oauth2-proxy
+.DS_Store
+"

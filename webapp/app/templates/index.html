@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>📦 Product Manager</h1>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Bienvenido</h2>
+            <p>Este es un laboratorio de <strong>Flask + PostgreSQL + Docker</strong>.</p>
+        </section>
+
+        <section class="actions">
+            <h2>Acciones rápidas</h2>
+            <div class="buttons">
+                <a href="/products" class="btn">Ver productos</a>
+                <a href="/add" class="btn secondary">Añadir producto</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Creado con ❤️ para mi portafolio · <a href="https://github.com/TU-USUARIO">GitHub</a></p>
+    </footer>
+</body>
+</html>
